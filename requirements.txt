@@ -5,5 +5,7 @@ sqlparse==0.4.2
 django-crispy-forms==1.14.0
 backports.zoneinfo==0.2.1
 django-allauth==0.50.0
+environs==9.5.0
+
 
 
