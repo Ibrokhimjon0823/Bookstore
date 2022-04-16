@@ -166,3 +166,7 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
+
+MEDIA_URL = '/media/' # new
+MEDIA_ROOT = str(BASE_DIR.joinpath('media')) # new
+
