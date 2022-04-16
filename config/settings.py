@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'pages',
+    'books',
     'crispy_forms',
     'allauth',  # new
     'allauth.account',  # new
